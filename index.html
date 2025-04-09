@@ -148,6 +148,72 @@
 
             <br>
             </form>
+        </section><hr>
+
+        <section>
+            <!-- Image and Videos Showcase -->
+            <h2>Images</h2>
+                    <!-- src="" --> <!-- optimized format -->
+                    <!-- alt="" --> <!-- improves accessibility, SEO -->
+                    <!-- width="", height="" --> <!-- prevents CLS ( Cmulative Layout Shift ) -->
+                    <!-- loading="lazy" --> <!-- improves performance loads only when the user is about to see it -->
+                    <!-- decoding="async" --> <!-- faster paint, non-blocking -->
+                    <img
+                    src="assets/images/webp/ben-10-webp.webp" 
+                    alt="Ben Tennyson with his omnitrix"
+                    title="Ben Tennyson"
+                    width="250"
+                    height="250"
+                    loading="lazy"
+                    decoding="async" 
+                    />
+
+        <article>
+            <h2>Videos</h2> <!--width="340" height="240"-->
+            <video 
+            src="assets/videos/Ben 10-Classic-OpeningTheme(eng).mp4"
+            controls
+            loop
+            playsinline
+            preload="metadata" 
+            height="315"
+            width="560"
+            poster="assets/images/vidoecover/ben-10-webp.webp"
+            >
+            Sorry, your browser doesn't support embedded videos.
+            </video>
+        </article>
+        </section>
+
+        <section>
+            <!-- Embedding iframes(inline frame) -->
+
+            <!-- referrerPolicy="no-referrer" = 🔒 Don't tell iframe where the user came from (privacy) -->
+            <!--sandbox="allow-scripts allow-same-origin" = 🛡️ Only allow scripts + access to its own data (safe but usable) -->
+            
+            <iframe 
+             src="https://www.youtube.com/embed/XbhecuoEgxs?si=Gtso8z1vFziJqy8E&amp;start=253"
+             title="Marvel edit" 
+             height="315"
+             width="560"
+             loading="lazy"
+             allowfullscreen
+             referrerpolicy="no-referrer"
+             sandbox="allow-scripts allow-same-origin"
+             > </iframe>
+
+             <iframe 
+             src="https://www.youtube.com/embed/jKSi87myWds?si=qsOjG_bz7k8z11M7"
+             title="Ben 10 Omniverse Theme track" 
+             height="315"
+             width="560"
+             loading="lazy"
+             allowfullscreen
+             referrerpolicy="no-referrer"
+             sandbox="allow-scripts allow-same-origin"
+             > </iframe>
+
+             
         </section>
     </main>
     <footer>

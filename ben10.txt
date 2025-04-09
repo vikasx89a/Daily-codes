@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vikas Kapparad">
+    <meta name="description" content="Embedding Media in HTML page">
+    <title>Media & Tables</title>
+</head>
+<body>
+    <header>
+        <h1>Responsive Image Task Pack</h1> <hr>
+    </header>
+    <main>
+        <section>
+            <!-- Images, Videos, IFrames -->
+               <h2>Ben 10</h2>
+               <img src="assets/ben-10-webp.webp" alt="This is a Ben 10 cartoon png" height="250">
+
+              <!-- Aliens -->
+        
+                <h2>Aliens</h2>
+                <!-- XLR8 -->         
+                <img src="assets/ben10-xlr8-png.png" alt="This is alien XLR8" height="250" width="250">
+                <!-- Rath -->
+                <img src="assets/ben10-rath-png.png" alt="This is alien Heatblast" height="250" width="250">
+                <img src="assets/ben10-rath-avif.avif" alt="This is alien Heatblast" height="250" width="250">
+                <!-- Heatblast -->
+                <img src="assets/ben10-heatblast-png.png" alt="This is alien Heatblast" height="250" width="250">
+                <!-- Fourarms -->
+                <img src="assets/ben10-fourarms-png.png" alt="This is alien Fourarms" height="250" width="250">
+                <!-- AlienX -->
+                <img src="assets/ben10-alienX-png.png" alt="This is alien AlienX" height="250" width="250">
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer>
+</body>
+</html> 
