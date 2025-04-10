@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Vikas">
     <meta name="description" content="User Login Form">
-    <title>HTML Login Form</title>
+    <title>HTML Form</title>
 </head>
 <body>
     <header>
@@ -39,13 +39,13 @@
                 <legend><strong>🔹 Account Security</strong></legend>
                 <!-- Password -->
                 <label for="pass">Password</label><br>
-                <input type="password" id="pass" name="pass" placeholder="hj78fc#%" required maxlength="8"><br>
+                <input type="password" id="pass" name="pass" placeholder="hj78fc#%" minlength="8" maxlength="16" required><br>
 
                 <label for="confirm-pass">Confirm Password</label><br>
-                <input type="password" id="confirm-pass" name="confirm-pass" maxlength="8" required><br>
+                <input type="password" id="confirm-pass" name="confirm-pass" minlength="8" maxlength="16" required><br>
 
                 <!-- Security Question -->
-                <label for="security-Q">Security Question</label><br>
+                <label for="security-Q">Security Question :</label>
                 <select name="security-Q" id="security-Q" required>
                     <option value="">Select a question...</option>
                     <option value="pet">What is your first pet name?</option>
@@ -64,7 +64,7 @@
                     <input type="date" id="dob" name="dob" required><br>
                 
                     <!-- Gender -->
-                    <label for="gender">Gender</label><br>
+                    <label for="gender">Gender :</label>
 
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
@@ -76,8 +76,8 @@
                     <label for="other">Other</label><br>
 
                     <!-- Region / Continent -->
-                    <label for="Continent">Region</label><br>
-                    <select name="Continent" id="Continent" required><br>
+                    <label for="Continent">Region :</label>
+                    <select name="Continent" id="Continent" required>
                         <option value="">Select your Region...</option>
                         <option value="NA">North America</option>
                         <option value="SA">South America</option>
@@ -101,7 +101,7 @@
                     <input type="file" id="pfp" name="pfp" accept="image/*"><br>
 
                     <!-- Interests -->
-                    <label for="interests">Hobbies</label><br>
+                    <label for="interests">Hobbies :</label>
                     <input type="checkbox"  id="gaming" name="interests" value="Gaming">
                     <label for="gaming">Gaming</label>
                     <input type="checkbox" id="coding" name="interests" value="Coding">
@@ -121,7 +121,7 @@
                         <option value="German">German</option>
                         <option value="Urdu">Urdu</option>
                         <option value="Hindi">Hindi</option>
-                        <option value="Chineese">Chineese</option>
+                        <option value="Chinese">Chinese</option>
                         <option value="Japanese">Japanese</option>
                         <option value="Korean">Korean</option>
                     </select><br>
@@ -168,10 +168,40 @@
                     decoding="async" 
                     />
 
+            <div>
+                <!-- XLR8 -->         
+                <img src="assets/ben10-xlr8-png.png"
+                alt="This is alien XLR8" 
+                height="250" width="250"
+                loading="lazy"
+                >
+
+                <!-- Rath -->
+                <img src="assets/ben10-rath-avif.avif" 
+                alt="This is alien Heatblast" 
+                height="250" width="250"
+                loading="lazy"
+                >
+
+                <!-- Fourarms -->
+                <img src="assets/ben10-fourarms-png.png" 
+                alt="This is alien Fourarms" 
+                height="250" width="250"
+                loading="lazy"
+                >
+
+                <!-- AlienX -->
+                <img src="assets/ben10-alienX-png.png" 
+                alt="This is alien AlienX" 
+                height="250" width="250"
+                loading="lazy"
+                >
+            </div>
+
         <article>
             <h2>Videos</h2> <!--width="340" height="240"-->
             <video 
-            src="assets/videos/Ben 10-Classic-OpeningTheme(eng).mp4"
+            src="assets/videos/Ben10-Classic-OpeningTheme(eng).mp4"
             controls
             loop
             playsinline
