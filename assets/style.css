@@ -1,0 +1,13 @@
+/* selector { property: value property: value } */
+
+body {
+    font: 400 1rem/1.6 "Arial", sans-serif;
+    background-color: white;
+    color: #000000;
+  }
+
+  h1 {
+    font-size: clamp(1.5 rem, 5vw, 4.8rem);  /* 1rem = 10px brain hack */
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
