@@ -87,7 +87,11 @@ body {
     }
 }
 
-
+.mac-mini-product-bundle-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .mac-mini-product-bundle {
     margin: 18px auto;
     padding: 0 16px 10px;
@@ -218,6 +222,9 @@ body {
     color: #0071E3;
     letter-spacing: 0.015px;
 }
+.price-explore-emi a:hover {
+    text-decoration-line: underline;
+}
 .select-mac-product {
     border: none;
     color: white;
@@ -232,4 +239,10 @@ body {
 }
 .select-mac-product:hover {
     opacity: 0.895;
+}
+@media (max-width:1335px) {
+    .mac-mini-product-bundle-container {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
 }
