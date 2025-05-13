@@ -260,39 +260,36 @@ body {
 /* 🔲 GLOBAL CITIES */
 .globalcities-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 4px;
     gap: 0.8rem;
+    padding: 0.4rem;
+}
+.globalcity {
+    flex: 1 1 200px;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.globalcity:hover {
+    transform: scale(1.01);
 }
 .globalcity img {
-    object-fit: cover;
     width: 100%;
-    height: 560px; 
-    width: 436px;
-}
-@media (max-width: 768px) {
-    .globalcities-container {
-        padding: 0;
-        gap: 0.1rem;
-    }   
-    .globalcity img {
+    max-width: 100%;
     object-fit: cover;
-    height: 800px;
-    flex: 0 1 100px;
+    height: 400px;
+    display: block;
 }
-}
-@media (max-width: 425px) {
-    .globalcities-container {
-        padding: 0;
-        gap: 0.1rem;
-    }   
-    .globalcity img {
-    object-fit: cover;
-    height: 200px;
-    flex: 0 1 10px;
-    padding: 0 80px;
-}
+.cityinfo {
+    background: #fafafa;
+    color: #000000;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    border-radius: 20px;
 }
